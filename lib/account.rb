@@ -2,6 +2,7 @@
 
 require 'time'
 require_relative 'transaction'
+require_relative 'statement'
 
 class Account
   attr_reader :balance, :statement, :date
@@ -16,13 +17,13 @@ class Account
     deposit_error if amount < @balance
     @balance += amount
     new_transaction(Time.parse(date), amount, nil)
-    end
+  end
 
   def withdraw(amount, date = Time.now.to_s)
     withdraw_error if amount > @balance
     @balance -= amount
     new_transaction(Time.parse(date), amount, nil)
-    end
+  end
 
   def withdraw_error
     raise 'Insufficent funds'
