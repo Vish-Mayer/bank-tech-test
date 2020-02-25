@@ -83,8 +83,23 @@
           null,
           null
         ]
+      },
+      "/Users/macbook/Projects/bank-tech-test/spec/transaction_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/macbook/Projects/bank-tech-test/lib/transaction.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1582634986
+    "timestamp": 1582657201
   }
 }
