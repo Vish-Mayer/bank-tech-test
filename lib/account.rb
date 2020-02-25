@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 require 'time'
 require_relative 'transaction'
 
 class Account
-
-  attr_reader :balance, :statement, :date 
+  attr_reader :balance, :statement, :date
   DEFAULT_BALANCE = 0
 
   def initialize
@@ -12,26 +13,20 @@ class Account
   end
 
   def deposit(amount, date = Time.now.to_s)
-    if amount.negative?
-      deposit_error 
-    else 
-      @balance += amount
-      new_transaction(Time.parse(date), amount, nil)
-    end 
-  end
+    deposit_error if amount < @balance
+    @balance += amount
+    new_transaction(Time.parse(date), amount, nil)
+    end
 
   def withdraw(amount, date = Time.now.to_s)
-    if amount > @balance
-      withdraw_error
-    else
-      @balance -= amount
-      new_transaction(Time.parse(date), amount, nil)
-    end 
-  end
+    withdraw_error if amount > @balance
+    @balance -= amount
+    new_transaction(Time.parse(date), amount, nil)
+    end
 
   def withdraw_error
     raise 'Insufficent funds'
-  end 
+  end
 
   def deposit_error
     raise 'You can not deposit a negative amount'

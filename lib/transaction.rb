@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Transaction
   attr_reader :credit, :debit, :balance, :date
 
@@ -5,7 +7,6 @@ class Transaction
     @credit = credit
     @debit = debit
     @date = date
-    @balance = balance 
+    @balance = balance
   end
 end
-
