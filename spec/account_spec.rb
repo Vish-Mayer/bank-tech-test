@@ -15,5 +15,9 @@ describe Account do
       account.deposit(10.00)
       expect(account.balance).to eq 10.00
     end
-  end 
+
+    it 'raises an error if deposit amount is negative' do
+      expect{account.deposit(-10.00)}.to raise_error 'You can not deposit a negative amount'
+    end 
+  end
 end

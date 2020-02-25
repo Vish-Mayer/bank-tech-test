@@ -8,6 +8,10 @@ class Account
   end
 
   def deposit(amount)
-    @balance += amount 
+    if amount.negative?
+      raise 'You can not deposit a negative amount'
+    else 
+      @balance += amount 
+    end 
   end 
 end 
