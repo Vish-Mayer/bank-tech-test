@@ -54,6 +54,7 @@
           null,
           1,
           5,
+          5,
           null,
           null,
           1,
@@ -73,8 +74,6 @@
           null,
           null,
           1,
-          null,
-          1,
           1,
           null,
           null,
@@ -87,7 +86,24 @@
       "/Users/macbook/Projects/bank-tech-test/spec/transaction_spec.rb": {
         "lines": [
           1,
+          1,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1,
           null,
           null
@@ -96,10 +112,18 @@
       "/Users/macbook/Projects/bank-tech-test/lib/transaction.rb": {
         "lines": [
           1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1582657201
+    "timestamp": 1582660762
   }
 }

@@ -6,8 +6,8 @@ describe Account do
 
   describe '#initialize' do
     it 'an account is opened with a default balance of 0' do
-    expect(account.balance).to eq 0
-    end 
+      expect(account.balance).to eq 0
+    end
   end
 
   describe '#deposit' do

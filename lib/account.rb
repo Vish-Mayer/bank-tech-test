@@ -5,6 +5,7 @@ class Account
 
   def initialize
     @balance = DEFAULT_BALANCE
+    @statement = [] 
   end
 
   def deposit(amount)
@@ -22,8 +23,6 @@ class Account
       @balance -= amount
     end 
   end
-
-  private
 
   def withdraw_error
     raise 'Insufficent funds'
