@@ -27,5 +27,9 @@ describe Account do
       account.withdraw(5.00)
       expect(account.balance).to eq 5.00
     end
-  end 
+
+    it 'raises an error if withdraw amount > balance' do
+      expect{account.withdraw(1.00)}.to raise_error 'Insufficent funds'
+    end 
+  end
 end
