@@ -18,7 +18,8 @@ describe Account do
       expect(account.balance).to eq 10.00
     end
     it 'raises an error if deposit amount is negative' do
-      expect { account.deposit(-10.00) }.to raise_error 'You can not deposit a negative amount'
+      message = 'You can not deposit a negative amount'
+      expect { account.deposit(-10.00) }.to raise_error message
     end
   end
 
@@ -29,7 +30,8 @@ describe Account do
       expect(account.balance).to eq 5.00
     end
     it 'raises an error if withdraw amount > balance' do
-      expect { account.withdraw(1.00) }.to raise_error 'Insufficent funds'
+      message = 'Insufficent funds'
+      expect { account.withdraw(1.00) }.to raise_error message
     end
   end
 

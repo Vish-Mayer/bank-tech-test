@@ -3,7 +3,6 @@
 require 'transaction'
 
 describe Transaction do
-  
   describe '#initialize' do
     it 'records a deposit' do
       Timecop.freeze

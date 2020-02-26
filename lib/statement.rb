@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Class for printing a statement
 class Statement
   def print(statement)
     puts 'date || credit || debit || balance'

@@ -4,6 +4,7 @@ require 'time'
 require_relative 'statement'
 require_relative 'transaction'
 
+# Class for bank account
 class Account
   attr_reader :balance, :date, :statement
   DEFAULT_BALANCE = 0
