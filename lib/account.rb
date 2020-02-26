@@ -18,8 +18,7 @@ class Account
     deposit_error if amount.negative?
     @balance += amount
     create_transaction(Time.parse(date), amount, nil)
-    # format("You've deposited "'£%.2f', amount.to_s)
-
+    format("You've deposited "'£%.2f', amount.to_s)
   end
 
   def withdraw(amount, date = Time.now.to_s)
