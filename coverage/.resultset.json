@@ -9,7 +9,7 @@
       "/Users/macbook/Projects/bank-tech-test/spec/account_spec.rb": {
         "lines": [
           null,
-          null,
+          1,
           1,
           null,
           1,
@@ -28,6 +28,7 @@
           1,
           null,
           1,
+          1,
           2,
           null,
           null,
@@ -38,6 +39,7 @@
           1,
           1,
           null,
+          1,
           1,
           2,
           null,
@@ -54,13 +56,31 @@
           null
         ]
       },
+      "/Users/macbook/Projects/bank-tech-test/lib/transaction.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          9,
+          9,
+          9,
+          9,
+          null,
+          null
+        ]
+      },
       "/Users/macbook/Projects/bank-tech-test/lib/account.rb": {
         "lines": [
           null,
           null,
           1,
           1,
-          1,
+          null,
+          null,
           null,
           1,
           1,
@@ -75,7 +95,8 @@
           4,
           3,
           3,
-          3,
+          null,
+          null,
           null,
           null,
           1,
@@ -110,6 +131,7 @@
         "lines": [
           null,
           null,
+          null,
           1,
           1,
           2,
@@ -130,22 +152,6 @@
           null,
           1,
           4,
-          null,
-          null
-        ]
-      },
-      "/Users/macbook/Projects/bank-tech-test/lib/transaction.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          9,
-          9,
-          9,
-          9,
           null,
           null
         ]
@@ -177,7 +183,6 @@
           1,
           null,
           1,
-          null,
           1,
           1,
           1,
@@ -201,6 +206,6 @@
         ]
       }
     },
-    "timestamp": 1582728868
+    "timestamp": 1582760716
   }
 }

@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+require 'transaction'
 require 'account'
 
 describe Account do
@@ -7,8 +7,8 @@ describe Account do
   let(:statement_printer) { Statement.new }
 
   describe '#initialize' do
-    it 'an account is opened with a default balance of 0' do
-      expect(account.balance).to eq 0
+    it 'an account is opened with a default balance' do
+      expect(account.balance).to eq Account::DEFAULT_BALANCE
     end
   end
 

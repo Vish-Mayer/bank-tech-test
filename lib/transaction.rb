@@ -10,4 +10,4 @@ class Transaction
     @balance = balance
     @date = date
   end
-end
+end 
