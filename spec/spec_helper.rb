@@ -18,6 +18,7 @@
 
 require 'simplecov'
 require 'simplecov-console'
+require 'timecop'
 SimpleCov.formatter = SimpleCov::Formatter::Console
 SimpleCov.start
 
