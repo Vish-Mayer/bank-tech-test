@@ -2,7 +2,7 @@
 
 require 'time'
 require_relative 'statement'
-# require_relative 'transaction'
+require_relative 'transaction'
 
 # Class for bank account
 class Account

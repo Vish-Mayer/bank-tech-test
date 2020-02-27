@@ -10,4 +10,8 @@ class Transaction
     @balance = balance
     @date = date
   end
-end
+
+  def hi
+    "hello there"
+  end
+end 
