@@ -11,6 +11,12 @@ class Account
   end 
 
   def deposit(amount)
-    @balance += (transaction.credit(@balance, amount))
+    transaction.credit(balance, amount)
+    @balance += amount 
   end
+
+  def withdraw(amount)
+    transaction.debit(balance, amount)
+    @balance -= amount
+  end 
 end
