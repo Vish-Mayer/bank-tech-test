@@ -14,10 +14,11 @@
           null,
           1,
           null,
-          1,
-          1,
-          1,
+          2,
           null,
+          1,
+          1,
+          1,
           null,
           null,
           null
@@ -35,15 +36,12 @@
       },
       "/Users/macbook/Projects/bank-test2/lib/account.rb": {
         "lines": [
-          null,
           1,
           null,
           1,
-          1,
-          null,
           null,
           1,
-          2,
+          1,
           null,
           null
         ]
@@ -80,6 +78,6 @@
         ]
       }
     },
-    "timestamp": 1604916797
+    "timestamp": 1604917077
   }
 }
