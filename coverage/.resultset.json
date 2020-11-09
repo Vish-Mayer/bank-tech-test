@@ -8,14 +8,20 @@
     "coverage": {
       "/Users/macbook/Projects/bank-test2/spec/account_spec.rb": {
         "lines": [
-          null,
           1,
           1,
           null,
           1,
           null,
-          2,
+          3,
           null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -40,6 +46,10 @@
           null,
           1,
           1,
+          null,
+          1,
+          2,
+          null,
           null,
           1,
           1,
@@ -79,6 +89,6 @@
         ]
       }
     },
-    "timestamp": 1604917228
+    "timestamp": 1604918725
   }
 }
