@@ -1,6 +1,6 @@
-# frozen_string_literal: true
-
-# Class for recording a transaction
 class Transaction
   
-end 
+  def credit(balance, amount)
+    balance + amount
+  end
+end
