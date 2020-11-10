@@ -4,7 +4,7 @@ require 'transaction'
 require 'record_transaction'
 
 describe Transaction do
-
+  
   let(:deposit_record) do
     double(:deposit_record,
            date: nil,

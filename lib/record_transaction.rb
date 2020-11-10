@@ -1,9 +1,12 @@
+# frozen_string_literal: true
+
 require 'date'
 
 class TransactionRecord
-  attr_reader :date, :credit, :debit, :balance
+  attr_reader :type, :date, :credit, :debit, :balance
 
-  def initialize(date: Date.today, credit: nil, debit: nil, balance: nil)
+  def initialize(type: nil, date: Date.today, credit: nil, debit: nil, balance: nil)
+    @type = type 
     @date = date
     @credit = credit
     @debit = debit

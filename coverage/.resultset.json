@@ -71,19 +71,22 @@
           null,
           null,
           1,
-          5,
+          7,
           null,
           null
         ]
       },
       "/Users/macbook/Projects/bank-test2/lib/record_transaction.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
           1,
           null,
           1,
+          5,
           5,
           5,
           5,
@@ -95,13 +98,15 @@
       "/Users/macbook/Projects/bank-test2/lib/account.rb": {
         "lines": [
           1,
-          null,
           1,
           null,
           1,
+          null,
+          1,
           1,
           null,
           1,
+          4,
           4,
           4,
           null,
@@ -118,12 +123,65 @@
           null
         ]
       },
+      "/Users/macbook/Projects/bank-test2/lib/statement.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/macbook/Projects/bank-test2/spec/record_transaction_spec.rb": {
         "lines": [
-          1,
+          null,
           null,
           1,
           null,
+          1,
           2,
           2,
           null,
@@ -146,22 +204,17 @@
       },
       "/Users/macbook/Projects/bank-test2/spec/statement_spec.rb": {
         "lines": [
-          null,
-          null,
-          1,
           1,
           null,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/macbook/Projects/bank-test2/lib/statement.rb": {
-        "lines": [
-          null,
-          null,
+          2,
+          2,
+          2,
+          2,
           null,
           1,
+          1,
+          2,
           null,
           null
         ]
@@ -228,6 +281,6 @@
         ]
       }
     },
-    "timestamp": 1605028411
+    "timestamp": 1605043113
   }
 }

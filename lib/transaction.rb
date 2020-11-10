@@ -12,12 +12,12 @@ class Transaction
 
   def credit(balance, amount)
     update_balance = balance + amount
-    add_to_history(@transaction_record.new(balance: update_balance, credit: amount))
+    add_to_history(@transaction_record.new(type: 'deposit', balance: update_balance, credit: amount))
   end
 
   def debit(balance, amount)
     update_balance = balance - amount
-    @history << @transaction_record.new(balance: update_balance, debit: amount)
+    add_to_history(@transaction_record.new(type: 'withdrawal',balance: update_balance, debit: amount))
   end
 
   def add_to_history(transaction)
