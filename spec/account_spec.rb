@@ -1,9 +1,15 @@
 require 'transaction'
 require 'account'
+require 'statement'
 
 describe Account do
 
   subject(:account) { described_class.new }
+  let(:statement) { double(:statement) }
+  let(:transaction) { double(history: history) }
+  let(:history) { [withdraw_double, deposit_double] }
+  let(:deposit_double) { double(:deposit_double) }
+  let(:withdraw_double) { double(:withdraw_double) }
   
   describe '#initialize' do
     it 'initalizes a bank account with a default balance' do
@@ -31,6 +37,14 @@ describe Account do
         account.withdraw(50)
         expect(account.balance).to eq 50
       end
+    end
+  end
+
+  describe '#print_statement' do
+    it 'prints out bank statement' do
+      subject = Account.new(0, transaction, statement)
+      allow(statement).to receive(:print).and_return('returned output')
+      expect(subject.print_statement).to eq('returned output')
     end
   end
 end

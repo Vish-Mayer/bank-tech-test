@@ -1,29 +1,3 @@
-# frozen_string_literal: true
-
-# Class for printing a statement
-# class Statement
-
-#   def initialize
-#     @header = 'date || credit || debit || balance'
-#   end
-
-#   def format(history)
-#     transactions = history.reverse.map do |transaction|
-#       print(transaction)
-#     end
-#     @header + "\n" + transactions.join("\n")
-#   end
-
-#   def print(transaction)
-#     # transaction.credit
-#     # transaction.debit
-#     # transaction.balance
-
-#     "#{transaction.date.strftime('%d/%m/%Y')} || #{transaction.credit} || " \
-#     "#{transaction.debit} || #{transaction.balance}"
-#   end 
-# end
-
 class Statement
   def print(statement)
     puts 'date || credit || debit || balance'

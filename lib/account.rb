@@ -21,4 +21,8 @@ class Account
     transaction.debit(balance, amount)
     @balance -= amount
   end 
+
+  def print_statement
+    statement.print(transaction.history)
+  end 
 end

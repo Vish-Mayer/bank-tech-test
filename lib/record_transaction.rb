@@ -3,10 +3,9 @@
 require 'date'
 
 class TransactionRecord
-  attr_reader :type, :date, :credit, :debit, :balance
+  attr_reader :date, :credit, :debit, :balance
 
-  def initialize(type: nil, date: Date.today, credit: nil, debit: nil, balance: nil)
-    @type = type 
+  def initialize(date: Date.today, credit: nil, debit: nil, balance: nil)
     @date = date
     @credit = credit
     @debit = debit
