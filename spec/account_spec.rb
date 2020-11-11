@@ -7,9 +7,7 @@ describe Account do
   subject(:account) { described_class.new }
   let(:statement) { double(:statement) }
   let(:transaction) { double(history: history) }
-  let(:history) { [withdraw_double, deposit_double] }
-  let(:deposit_double) { double(:deposit_double) }
-  let(:withdraw_double) { double(:withdraw_double) }
+  let(:history) { ['record1', 'record2'] }
   
   describe '#initialize' do
     it 'initalizes a bank account with a default balance' do
@@ -17,6 +15,9 @@ describe Account do
     end
     it 'is initialized with a an instance of the Transaction class' do
       expect(account.transaction).to be_an_instance_of(Transaction)
+    end
+    it 'is initialized with a an instance of the Statement class' do
+      expect(account.statement).to be_an_instance_of(Statement)
     end
   end
 

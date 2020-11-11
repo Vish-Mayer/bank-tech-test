@@ -4,7 +4,6 @@ require 'transaction'
 require 'record_transaction'
 
 describe Transaction do
-
   subject(:transaction) { described_class.new }
 
   let(:deposit_record) do
