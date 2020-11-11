@@ -66,7 +66,7 @@ The key concepts that I attempted to adhere to were:
     rspec
 
 ## Demo
-   <img src="./images/Screenshot1.png" width=600 a>
+   <img src="./images/Screenshot1.png" raw=true>
     
 
 
