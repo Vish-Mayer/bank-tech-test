@@ -1,4 +1,27 @@
-# Specification
+# Bank Account TechTest
+```
+  ,=====================.
+  | ATM                 |
+  |.-------------------.|
+  |`                   ||
+  |` -deposit          '|
+  || -withdraw         ||
+  |` -print statement  '|
+  ||                   ||
+  |`-----------------_-'|
+  | [=========]| o {==} |
+  |---==--==----------==|
+  |||||||||||||||||||||||
+  |||||||||||||||||||||||
+  |||||||||||||||||||||||
+  |||||||||||||||||||||||
+  |||||||||||||||||vish||
+  |||||||||||||||||||||||
+  |=====================|
+ .'                     `.
+```
+##### [*REQUIREMENTS*](#Requirements) | [*USER STORIES*](#User-Stories) | [*APPROACH*](#Approach) | [*HOW TO USE*](#How-To-Use ) 
+
 ## Requirements
 
 You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
@@ -34,7 +57,7 @@ The key concepts that I attempted to adhere to were:
 * Concise methods
 * Seperation of concerns
 
-## Installation
+## How to use
 #### Clone this repo onto your local machine
     https://github.com/Vish-Mayer/bank-tech-test.git
 #### Run bundle install in the root file
@@ -42,19 +65,8 @@ The key concepts that I attempted to adhere to were:
 #### Run tests
     rspec
 
-## How to use
-    2.6.3 :001 > require './lib/account.rb'
-    => true 
-    2.6.3 :002 > demo = Account.new
-    => #<Account:0x00007ff0c207bb50 @balance=0, @statement=[]> 
-    2.6.3 :003 > demo.deposit(200)
-    => "You've deposited £200.00" 
-    2.6.3 :004 > demo.withdraw(50)
-    => "You've withdrawn £50.00" 
-    2.6.3 :005 > demo.print_statement
-    date || credit || debit || balance
-    26/02/2020 || || £50.00 || £150.00
-    26/02/2020 || £200.00 || || £200.00
+## Demo
+   <img src="./images/Screenshot1.png" width=600 a>
     
 
 
